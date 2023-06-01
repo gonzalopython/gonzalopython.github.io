@@ -1,0 +1,91 @@
+/* Dispositivos pequeños (teléfonos, 600px y menos) */
+@media only screen and (max-width: 600px) {
+    .columna {
+    flex-direction: column;
+    }
+    .columna-izquierda {
+    order: -1;
+    }
+    .columna-derecha {
+    width: 100%;
+    float: none;
+    clear: both;
+    }
+    h2, h3 {
+    color: white;
+    }
+    h2 {
+    background-color: midnightblue;
+    }
+    h3 {
+    background-color: #666;
+    }
+    #pic {
+    float: left;
+    width: 20%;
+    height: 20%;
+    }
+    .fn, p, .clear {
+    width: 65%;
+    }
+    p {
+    text-align: justify;
+    }
+    dt {
+    font-size: auto;
+    }
+    dd {
+    width: 100%;
+    font-size:small;
+    }
+    }
+    
+    /* Dispositivos medios (tablets horizontales, 768px y más) */
+    @media only screen and (max-width: 768px) {
+    .columna {
+    flex-direction: column;
+    }
+    .columna-izquierda {
+    order: -1;
+    width: 100%;
+    
+    
+    margin-right: 10%;
+    }
+    .columna-derecha {
+    width: 100%;
+    float: none;
+    clear: both;
+    }
+    h2 {
+    background-color: darkblue;
+    
+    }
+    h3 {
+    background-color: #666;
+    }
+    
+    #pic {
+    float: left;
+    width: 20%;
+    height: 20%;
+    }
+    .fn, p, .clear {
+    width: 65%;
+    }
+    p {
+    text-align: justify;
+    }
+    dt {
+    font-size: auto;
+    }
+    dd {
+    width: 100%;
+    font-size:small;
+    }
+    }
+    
+    /* Dispositivos medios (tablets horizontales, 1280px y más) /
+    @media only screen and (max-width: 1280px) {
+    / No hay reglas específicas para este breakpoint */
+    

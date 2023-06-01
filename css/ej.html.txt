@@ -1,0 +1,21 @@
+<div class="cuadro">
+    <h2 class="titulo">Educación</h2>
+    <div class="contenido">
+        <h3>Ingeniería en Sistemas Computacionales</h3>
+        <p>
+            <strong>Institución:</strong> Universidad Técnica Federico Santa María<br />
+            <strong>Situación Académica:</strong> Titulado
+        </p>
+        <h3>Técnico en Sistemas Informáticos</h3>
+        <p>
+            <strong>Institución:</strong> IPLACEX.<br />
+            <strong>Situación Académica:</strong> Titulado
+        </p>
+        <h3>Ingeniería en Informática Aplicada</h3>
+        <p>
+            <strong>Institución:</strong> Universidad de Valparaíso<br />
+            <strong>Situación Académica:</strong> Estudios Congelados
+        </p>
+    </div>
+    <div class="imagen" style="background-image: url('images/educacion.jpg');"></div>
+</div>
